@@ -18,7 +18,7 @@ RUN npm install \
 
 COPY README.md .
 COPY SUMMARY.md .
-COPY example ./example:wget
+COPY example ./example
 
 RUN npm run build:static \
   && npm run build:pdf

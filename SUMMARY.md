@@ -1,3 +1,4 @@
+# SUMMARY
 
 * [Welcome](README.md)
-* [example](example/example.md)
+    * [Example](example/README.md)
