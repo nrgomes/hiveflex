@@ -1,4 +1,3 @@
-# Hiveflex
+# HiveFlex
 
-
-Welcome to this book
+Welcome to HiveFlex.
