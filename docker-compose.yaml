@@ -1,4 +1,3 @@
-version: '3'
 hiveflex:
   build: .
   restart: always

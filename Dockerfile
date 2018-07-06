@@ -18,11 +18,7 @@ RUN npm install \
 
 COPY README.md .
 COPY SUMMARY.md .
-COPY assets ./assets
-COPY configuration ./configuration
-COPY _layouts ./_layouts
-COPY agile ./agile
-COPY usage ./usage
+COPY example ./example:wget
 
 RUN npm run build:static \
   && npm run build:pdf
@@ -34,7 +30,6 @@ WORKDIR /usr/share/nginx/html/
 
 COPY --from=builder /srv/gitbook/book.pdf ./downloads/book.pdf
 COPY --from=builder /srv/gitbook/_book/ .
-COPY --from=builder /srv/gitbook/_layouts/ ./_layouts/
 
 # Directory to copy the static content is run on /usr/share/nginx/html
 
