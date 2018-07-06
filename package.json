@@ -1,0 +1,23 @@
+{
+  "name": "documentation",
+  "version": "0.0.1",
+  "description": "HiveFlex",
+  "main": "index.js",
+  "dependencies": {
+    "ebook-convert": "^2.0.1",
+    "gitbook-cli": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:static": "gitbook build",
+    "build:pdf": "gitbook pdf",
+    "prepare": "gitbook install",
+    "watch": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Nuno Rafael Gomes",
+  "license": "ISC"
+}

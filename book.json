@@ -1,0 +1,21 @@
+{
+    "title": "HiveFlex",
+    "root": ".",
+    "plugins": [
+      "-sharing",
+      "-fontsettings",
+      "-search",
+      "search-plus",
+      "download-pdf-link",
+      "otherlink",
+      "advanced-emoji",
+      "todo"
+    ],
+    "pluginsConfig": {
+      "download-pdf-link": {
+        "base": "http://127.0.0.1:8080",
+        "label": "Download",
+        "multilingual": false
+      }
+    }
+  }
